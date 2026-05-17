@@ -1,0 +1,34 @@
+PREDATOR ICON DESIGN - 10x10 pixels for Flipper Zero
+
+Design Concept: Stylized "P" with car/tech elements
+
+Pixel Art Layout (10x10):
+##########
+#  ####  #
+# #    # #
+# ######  #
+# #       #
+# #   ##  #
+# #  #  # #
+#    ##   #
+#         #
+##########
+
+Legend:
+# = Black pixels (foreground)
+  = White pixels (background)
+
+Alternative ASCII Design:
+ ████████ 
+█  ████  █
+█ █    █ █
+█ ██████  
+█ █       
+█ █   ██  
+█ █  █  █ 
+█    ██   
+█         
+ ████████ 
+
+This creates a stylized "P" for PREDATOR with tech/automotive styling.
+The icon should be saved as "predator_icon.png" in 10x10 pixel format.

@@ -1,0 +1,338 @@
+PREDATOR SECURITY SUITE - RESTRICTED USE LICENSE
+
+Copyright (c) 2024-2025 Nico Lococo - Elon's Startup
+All Rights Reserved.
+
+================================================================================
+EDUCATIONAL AND AUTHORIZED SECURITY RESEARCH LICENSE (EASRL)
+Version 1.0, October 2024
+================================================================================
+
+IMPORTANT: READ THIS LICENSE AGREEMENT CAREFULLY BEFORE USING THIS SOFTWARE.
+
+BY DOWNLOADING, INSTALLING, COPYING, OR USING THIS SOFTWARE ("PREDATOR SECURITY 
+SUITE"), YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND 
+AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT DOWNLOAD, INSTALL, OR USE THIS 
+SOFTWARE.
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+"Software" refers to Predator Security Suite, including all source code, 
+compiled binaries, documentation, and associated materials.
+
+"Authorized Use" means use for legitimate security research, penetration testing,
+or educational purposes with explicit written permission from the owner of the 
+target system, device, or network being tested.
+
+"User" refers to any individual or entity that downloads, installs, or uses 
+the Software.
+
+"Authors" refers to Nico Lococo, contributors, maintainers, and distributors 
+of the Software.
+
+================================================================================
+2. GRANT OF LICENSE
+================================================================================
+
+Subject to the terms and conditions of this License, the Authors hereby grant 
+you a limited, non-exclusive, non-transferable, revocable license to:
+
+a) Use the Software solely for Authorized Use as defined above
+b) Modify the Software for your own Authorized Use
+c) Study the Software for educational and research purposes
+
+This license is granted ONLY for legal, authorized, and ethical purposes.
+
+================================================================================
+3. RESTRICTIONS AND PROHIBITED USES
+================================================================================
+
+You are STRICTLY PROHIBITED from:
+
+a) Using the Software against any system, device, network, or property that 
+   you do not own or have explicit written authorization to test
+
+b) Using the Software to commit any illegal activities including but not 
+   limited to:
+   - Unauthorized access to computer systems (hacking)
+   - Unauthorized interception of communications
+   - Jamming or disrupting communications or signals
+   - Theft of data or services
+   - Violation of computer fraud and abuse laws
+   - Violation of telecommunications regulations
+   - Any activity prohibited by local, state, national, or international law
+
+c) Distributing, selling, or sublicensing the Software without explicit 
+   written permission from the Authors
+
+d) Using the Software in any manner that violates the rights of others
+
+e) Removing or altering any copyright, trademark, or legal notices from the 
+   Software
+
+f) Using the Software for military, weapons development, or surveillance 
+   purposes without appropriate authorization
+
+g) Using the Software to cause harm, damage, or disruption to any systems, 
+   networks, or individuals
+
+================================================================================
+4. AUTHORIZATION REQUIREMENTS
+================================================================================
+
+Before using the Software, you MUST obtain:
+
+a) WRITTEN AUTHORIZATION from the legal owner of any system, device, or network
+   you intend to test, OR
+
+b) Explicit permission from your employer if conducting professional penetration
+   testing, OR
+
+c) Institutional approval from your academic institution if using for 
+   educational purposes, OR
+
+d) Proof of ownership of all systems, devices, and networks being tested
+
+The burden of obtaining and maintaining proper authorization rests ENTIRELY 
+with the User.
+
+================================================================================
+5. DISCLAIMER OF WARRANTIES
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+- WARRANTIES OF MERCHANTABILITY
+- FITNESS FOR A PARTICULAR PURPOSE
+- NON-INFRINGEMENT
+- ACCURACY OR RELIABILITY
+- ABSENCE OF DEFECTS OR ERRORS
+- COMPATIBILITY WITH ANY SYSTEM
+
+THE AUTHORS MAKE NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY, 
+RELIABILITY, AVAILABILITY, TIMELINESS, OR ACCURACY OF THE SOFTWARE.
+
+YOU USE THE SOFTWARE AT YOUR OWN RISK.
+
+================================================================================
+6. LIMITATION OF LIABILITY
+================================================================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
+
+a) IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY DIRECT, INDIRECT, 
+   INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES 
+   (INCLUDING BUT NOT LIMITED TO LOSS OF USE, DATA, OR PROFITS; BUSINESS 
+   INTERRUPTION; OR ANY OTHER DAMAGES) ARISING OUT OF OR RELATED TO THE USE 
+   OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF 
+   SUCH DAMAGES.
+
+b) THE AUTHORS SHALL NOT BE LIABLE FOR ANY ILLEGAL, UNAUTHORIZED, OR UNETHICAL 
+   USE OF THE SOFTWARE BY ANY USER.
+
+c) THE AUTHORS SHALL NOT BE LIABLE FOR ANY LEGAL CONSEQUENCES, CRIMINAL 
+   PROSECUTION, CIVIL LIABILITY, FINES, PENALTIES, OR OTHER RAMIFICATIONS 
+   RESULTING FROM YOUR USE OR MISUSE OF THE SOFTWARE.
+
+d) THE AUTHORS SHALL NOT BE LIABLE FOR ANY DAMAGES TO SYSTEMS, DEVICES, 
+   NETWORKS, OR DATA CAUSED BY YOUR USE OF THE SOFTWARE.
+
+e) YOU AGREE TO INDEMNIFY, DEFEND, AND HOLD HARMLESS THE AUTHORS FROM ANY 
+   CLAIMS, DAMAGES, LOSSES, LIABILITIES, COSTS, AND EXPENSES (INCLUDING 
+   LEGAL FEES) ARISING FROM YOUR USE OR MISUSE OF THE SOFTWARE.
+
+================================================================================
+7. USER RESPONSIBILITY AND ASSUMPTION OF RISK
+================================================================================
+
+By using the Software, you acknowledge and agree that:
+
+a) You are SOLELY RESPONSIBLE for your actions and any consequences thereof
+
+b) You will COMPLY with all applicable local, state, national, and 
+   international laws and regulations
+
+c) You will obtain all necessary authorizations before using the Software
+
+d) You understand the legal risks associated with security research tools
+
+e) You will use the Software only for ethical, legal, and authorized purposes
+
+f) You accept FULL RESPONSIBILITY for ensuring your use is legal in your 
+   jurisdiction
+
+g) You will NOT hold the Authors responsible for any consequences of your 
+   actions
+
+================================================================================
+8. REGULATORY COMPLIANCE
+================================================================================
+
+You are responsible for complying with all applicable regulations including:
+
+a) Computer Fraud and Abuse Act (CFAA) - United States
+b) Computer Misuse Act - United Kingdom
+c) European Union Directives on privacy and cybercrime
+d) Federal Communications Commission (FCC) regulations - United States
+e) ETSI (European Telecommunications Standards Institute) standards
+f) International Telecommunications Union (ITU) regulations
+g) Local laws regarding:
+   - Unauthorized computer access
+   - Wireless communications
+   - Radio frequency transmissions
+   - Data privacy and protection
+   - Electronic surveillance
+
+================================================================================
+9. EDUCATIONAL AND RESEARCH USE
+================================================================================
+
+For educational or research use:
+
+a) Use must be conducted in controlled laboratory environments
+b) Proper institutional oversight and approval must be obtained
+c) No testing of production systems or unauthorized targets
+d) Results must be used only for legitimate academic purposes
+e) Responsible disclosure practices must be followed
+
+================================================================================
+10. PROFESSIONAL USE
+================================================================================
+
+For professional penetration testing or security auditing:
+
+a) Written contracts with clients must be in place
+b) Scope of testing must be clearly defined and agreed upon
+c) Professional liability insurance is strongly recommended
+d) Industry best practices and ethical guidelines must be followed
+e) All findings must be handled confidentially and professionally
+
+================================================================================
+11. TERMINATION
+================================================================================
+
+This license is effective until terminated. This license will terminate 
+automatically without notice if you fail to comply with any provision. Upon 
+termination:
+
+a) You must cease all use of the Software immediately
+b) You must destroy all copies of the Software in your possession
+c) The disclaimers, limitations of liability, and indemnification provisions 
+   shall survive termination
+
+The Authors reserve the right to terminate your license for any violation of 
+these terms.
+
+================================================================================
+12. REPORTING ILLEGAL USE
+================================================================================
+
+The Authors:
+
+a) DO NOT CONDONE illegal or unauthorized use of the Software
+b) WILL COOPERATE with law enforcement regarding illegal use
+c) RESERVE THE RIGHT to report suspected illegal use to authorities
+d) WILL REVOKE licenses of users engaging in illegal activities
+
+If you become aware of illegal use, report it to appropriate authorities.
+
+================================================================================
+13. MODIFICATIONS TO SOFTWARE
+================================================================================
+
+You may modify the Software for your own Authorized Use, provided that:
+
+a) All modifications remain subject to this License
+b) You do not distribute modified versions without permission
+c) You retain all copyright and legal notices
+d) You do not use modifications for illegal purposes
+
+================================================================================
+14. NO SUPPORT OR UPDATES
+================================================================================
+
+The Authors are under no obligation to provide:
+
+a) Technical support or assistance
+b) Updates, patches, or bug fixes
+c) Maintenance or enhancements
+d) Documentation or training
+
+Any support provided is at the Authors' sole discretion.
+
+================================================================================
+15. JURISDICTION AND GOVERNING LAW
+================================================================================
+
+This License shall be governed by and construed in accordance with the laws of 
+the jurisdiction where the User resides, without regard to conflict of law 
+principles.
+
+Any legal action arising from this License must be brought in the courts of 
+competent jurisdiction in the User's location.
+
+================================================================================
+16. SEVERABILITY
+================================================================================
+
+If any provision of this License is found to be invalid or unenforceable, the 
+remaining provisions shall remain in full force and effect.
+
+================================================================================
+17. ENTIRE AGREEMENT
+================================================================================
+
+This License constitutes the entire agreement between you and the Authors 
+regarding the Software and supersedes all prior agreements and understandings.
+
+================================================================================
+18. ACCEPTANCE
+================================================================================
+
+By using the Software, you acknowledge that you have read this License, 
+understand it, and agree to be bound by its terms and conditions.
+
+If you do not accept these terms, you must not use the Software.
+
+================================================================================
+19. CONTACT INFORMATION
+================================================================================
+
+For questions about this License or to report violations:
+
+Project: Predator Security Suite
+Repository: https://github.com/predator-momentum/flipper
+License Inquiries: legal@predator-security.com
+
+================================================================================
+20. FINAL WARNING
+================================================================================
+
+UNAUTHORIZED USE OF THIS SOFTWARE IS ILLEGAL AND MAY RESULT IN:
+
+- CRIMINAL PROSECUTION
+- IMPRISONMENT
+- SUBSTANTIAL FINES
+- CIVIL LIABILITY FOR DAMAGES
+- PERMANENT CRIMINAL RECORD
+- LOSS OF PROFESSIONAL LICENSES
+- REPUTATIONAL DAMAGE
+
+YOU HAVE BEEN WARNED.
+
+USE THIS SOFTWARE RESPONSIBLY, LEGALLY, AND ETHICALLY.
+
+================================================================================
+
+END OF LICENSE
+
+Copyright (c) 2024-2025 Nico Lococo - Elon's Startup
+All Rights Reserved.
+
+This license may be referred to as "EASRL" (Educational and Authorized Security 
+Research License)

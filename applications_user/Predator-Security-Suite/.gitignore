@@ -1,0 +1,443 @@
+# ============================================================================
+# Professional .gitignore for Flipper Zero Application Development
+# ============================================================================
+
+# ============================================================================
+# Flipper Zero Build Artifacts
+# ============================================================================
+
+# Compiled application files
+*.fap
+*.fap.debug
+*.elf
+*.bin
+
+# Build directories
+**/dist/
+**/build/
+**/.fam_outputs/
+
+# ufbt (micro Flipper Build Tool) generated files
+**/.ufbt/
+.ufbt_state
+**/.ufbt_cache/
+
+# Keep user-specific ufbt settings but ignore SDK
+**/.ufbt.user
+
+# Firmware build artifacts (if building full firmware)
+**/firmware.bin
+**/firmware.elf
+**/updater.bin
+**/assets/
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+*.lai
+*.la
+*.lo
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Linker output
+*.map
+
+# ============================================================================
+# IDE and Editor Files
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+.ionide/
+
+# VS Code compile commands (generated)
+**/compile_commands.json
+
+# JetBrains IDEs (CLion, PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+cmake-build-*/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*~
+*.swp
+*.swo
+*.swn
+.netrwhist
+Session.vim
+tags
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.ico
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# Python (for ufbt and build scripts)
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# ============================================================================
+# Development and Testing
+# ============================================================================
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Test outputs
+test_results/
+test_output/
+*.test
+
+# Debugging artifacts
+debug/
+*.dump
+core.*
+
+# Memory dumps
+*.dmp
+
+# Profiling data
+*.prof
+*.lprof
+
+# ============================================================================
+# Documentation Build
+# ============================================================================
+
+# Doxygen
+docs/html/
+docs/latex/
+docs/xml/
+Doxyfile.bak
+
+# Sphinx
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ============================================================================
+# Version Control and Project Management
+# ============================================================================
+
+# Git
+*.orig
+*.rej
+.git-rewrite/
+
+# SVN
+.svn/
+
+# Mercurial
+.hg/
+.hgignore
+
+# Patch files
+*.patch
+*.diff
+
+# ============================================================================
+# Dependency Management
+# ============================================================================
+
+# C/C++ dependency files
+*.d
+*.dep
+
+# Package manager locks (keep requirements but not locks for flexibility)
+# Uncomment if you want strict version locking:
+# Pipfile.lock
+
+# ============================================================================
+# Hardware and Firmware Specific
+# ============================================================================
+
+# Serial port logs
+serial_*.log
+uart_*.log
+
+# Flipper Zero debug captures
+flipper_*.bin
+flipper_dump_*.txt
+
+# Hardware test outputs
+hardware_test_*.log
+
+# Firmware update packages (unless distributing)
+*.tgz
+*.tar.gz
+update/
+
+# ============================================================================
+# Security and Credentials
+# ============================================================================
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.cer
+*.crt
+secrets.txt
+credentials.json
+
+# API keys and tokens
+*_token.txt
+*_apikey.txt
+
+# ============================================================================
+# Build System Specific
+# ============================================================================
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Make
+*.mk
+.depend
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# SCons
+.sconsign.dblite
+.sconf_temp/
+config.log
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+
+# Compressed files (unless part of distribution)
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Archives
+archives/
+
+# Notes and TODO files (project-specific, uncomment if needed)
+# TODO.txt
+# NOTES.md
+# .todo
+
+# Generated files
+generated/
+auto_generated/
+
+# Local configuration overrides
+local_config.*
+*.local
+
+# ============================================================================
+# Exceptions (Files to Always Include)
+# ============================================================================
+
+# Keep specific build configuration files
+!application.fam
+!Makefile
+!.ufbt
+
+# Keep example configurations
+!example.*
+!sample.*
+
+# Keep documentation
+!README.md
+!BUILD.md
+!*.md
+
+# Keep icon files
+!*.png
+!*.ico
+!*.svg
+
+# Keep data files needed for app
+!data/**/*.txt
+!data/**/*.json
+_codeql_detected_source_root
