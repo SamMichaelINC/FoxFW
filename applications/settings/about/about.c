@@ -75,7 +75,7 @@ static DialogMessageButton compliance_screen(DialogsApp* dialogs, DialogMessage*
 static DialogMessageButton unleashed_info_screen(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
 
-    const char* screen_header = "FOX Firmware\n";
+    const char* screen_header = "FOX FW v1.0\n";
 
     const char* screen_text = "Is for experimental purposes\nonly "
                               "and is not meant for any\nillegal use! "
