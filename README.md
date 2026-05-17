@@ -2,7 +2,7 @@
 
 ## Overview
 
-**FoXFW** is an independently developed firmware for Flipper Zero, based on **Unleashed Firmware and ARF** but heavily modified. In this firmware build I have NOT removed typical general-purpose functions. This Firmware focuses on **automotive research and experimentation** without losing a heap of other features.
+**FoxFW** is an independently developed firmware for Flipper Zero, based on **Unleashed Firmware and ARF** but heavily modified. In this firmware build I have NOT removed typical general-purpose functions. This Firmware focuses on **automotive research and experimentation** without losing a heap of other features.
 
 The goal of this firmware is to provide a **high-compatibility, protocol-focused build** for personal use, academic study, and responsible security research. It focuses on **automotive remote protocols, rolling code behavior, and keyfob ecosystem compatibility**.
 
