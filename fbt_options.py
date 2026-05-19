@@ -3,7 +3,7 @@ import posixpath
 
 # For more details on these options, run 'fbt -h'
 
-FIRMWARE_ORIGIN = "FOX"
+FIRMWARE_ORIGIN = "FoxFW"
 
 # Default hardware target
 TARGET_HW = 7
