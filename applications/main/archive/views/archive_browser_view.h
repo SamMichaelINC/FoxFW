@@ -32,6 +32,7 @@ typedef enum {
     ArchiveTabLFRFID,
     ArchiveTabNFC,
     ArchiveTabInfrared,
+    ArchiveTabIButton,
     ArchiveTabBadUsb,
     ArchiveTabU2f,
     ArchiveTabApplications,
