@@ -12,7 +12,6 @@ App(
         "subghz_bruteforcer",
         "archive",
         "ibutton",
-        "subghz_remote",
         "main_apps_on_start",
     ],
 )

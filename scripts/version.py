@@ -37,7 +37,7 @@ class GitVersion:
 
         version = (
             os.environ.get("DIST_SUFFIX", None)
-            or "unknown"
+            or "Fox FW"
         )
 
         force_no_dirty = (

@@ -1,14 +1,14 @@
-# Flipper-ARF Code of Conduct
+# FoxFW Code of Conduct
 
 ## Our Pledge
 
-We as members, contributors, and maintainers of Flipper-ARF pledge to make participation in this project a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and maintainers of FoxFW pledge to make participation in this project a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, and responsible research community.
 
 ## Ethical Research Standards
 
-Flipper-ARF is an automotive security research project. All contributions, discussions, and use of this project must adhere to the following ethical standards:
+FoxFW is an automotive security research project. All contributions, discussions, and use of this project must adhere to the following ethical standards:
 
 1. **Lawful purpose only.** All work must be for lawful, educational, or explicitly authorized security research purposes. Contributors must comply with all applicable local, national, and international laws.
 
@@ -89,6 +89,6 @@ Maintainers will follow these guidelines in determining the consequences for any
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.0, with additional ethical research guidelines specific to the Flipper-ARF project.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.0, with additional ethical research guidelines specific to the FoxFW project.
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).

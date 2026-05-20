@@ -72,14 +72,12 @@ static DialogMessageButton compliance_screen(DialogsApp* dialogs, DialogMessage*
     return result;
 }
 
-static DialogMessageButton unleashed_info_screen(DialogsApp* dialogs, DialogMessage* message) {
+static DialogMessageButton foxfw_info_screen(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
 
-    const char* screen_header = "FOX FW v1.0\n";
+    const char* screen_header = "Fox Firmware v1.0\n";
 
-    const char* screen_text = "Is for experimental purposes\nonly "
-                              "and is not meant for any\nillegal use! "
-                              "We do not condone\nany illegal activity.";
+    const char* screen_text = "Firmware Provided for lawful\nuse ONLY! Using it to conduct\nillegal activities may lead to\nprosecution or jail time.";
 
     dialog_message_set_header(message, screen_header, 0, 0, AlignLeft, AlignTop);
     dialog_message_set_text(message, screen_text, 0, 11, AlignLeft, AlignTop);
@@ -90,12 +88,29 @@ static DialogMessageButton unleashed_info_screen(DialogsApp* dialogs, DialogMess
     return result;
 }
 
-static DialogMessageButton unleashed_info_screen2(DialogsApp* dialogs, DialogMessage* message) {
+static DialogMessageButton foxfw_info_screen2(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
 
-    const char* screen_text =
-        "This firmware is free and\ndistributed under\nthe OpenSource license.\n"
-        "If you paid any money for it\n- you got scammed.";
+    const char* screen_header = "Developer Info\n";
+
+    const char* screen_text = "SamMichaelGitHub\n@gmail.com\nGitHub.com\n/SamMichaelINC/FoxFW";
+
+    dialog_message_set_header(message, screen_header, 0, 0, AlignLeft, AlignTop);
+    dialog_message_set_text(message, screen_text, 0, 11, AlignLeft, AlignTop);
+    result = dialog_message_show(dialogs, message);
+    dialog_message_set_header(message, NULL, 0, 0, AlignLeft, AlignTop);
+    dialog_message_set_text(message, NULL, 0, 0, AlignLeft, AlignTop);
+
+    return result;
+}
+/*
+static DialogMessageButton foxfw_info_screen3(DialogsApp* dialogs, DialogMessage* message) {
+    DialogMessageButton result;
+
+    const char* screen_text = "Special Thanks to:\n"
+                              "Name\n"
+                              "Name\n"
+                              "Name";
 
     dialog_message_set_text(message, screen_text, 0, 0, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
@@ -103,20 +118,8 @@ static DialogMessageButton unleashed_info_screen2(DialogsApp* dialogs, DialogMes
 
     return result;
 }
+*/
 
-static DialogMessageButton unleashed_info_screen3(DialogsApp* dialogs, DialogMessage* message) {
-    DialogMessageButton result;
-
-    const char* screen_text = "Community apps included in\nall builds except `c` build\n"
-                              "For updates and more visit:\n"
-                              "github.com/DarkFlippers";
-
-    dialog_message_set_text(message, screen_text, 0, 0, AlignLeft, AlignTop);
-    result = dialog_message_show(dialogs, message);
-    dialog_message_set_text(message, NULL, 0, 0, AlignLeft, AlignTop);
-
-    return result;
-}
 
 static DialogMessageButton hw_version_screen(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
@@ -190,9 +193,9 @@ static DialogMessageButton fw_version_screen(DialogsApp* dialogs, DialogMessage*
 }
 
 const AboutDialogScreen about_screens[] = {
-    unleashed_info_screen,
-    unleashed_info_screen2,
-    unleashed_info_screen3,
+    foxfw_info_screen,
+    foxfw_info_screen2,
+    //foxfw_info_screen3,
     product_screen,
     compliance_screen,
     address_screen,

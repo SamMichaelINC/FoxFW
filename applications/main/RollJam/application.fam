@@ -12,6 +12,7 @@ App(
     fap_author="@user",
     fap_version="1.0",
     fap_weburl="",
+    order=50,
     requires=[
         "gui",
         "subghz",

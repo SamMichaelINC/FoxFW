@@ -6,7 +6,7 @@ App(
     entry_point="nfc_app",
     icon="A_NFC_14",
     stack_size=5 * 1024,
-    order=30,
+    order=10,
     resources="resources",
     sources=["*.c*", "!plugins", "!nfc_cli.c", "!cli"],
     fap_libs=["assets", "mbedtls"],

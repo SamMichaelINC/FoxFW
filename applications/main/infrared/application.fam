@@ -6,7 +6,7 @@ App(
     targets=["f7"],
     icon="A_Infrared_14",
     stack_size=3 * 1024,
-    order=40,
+    order=30,
     sources=["*.c", "!infrared_cli.c"],
     resources="resources",
     fap_libs=["assets", "infrared"],
